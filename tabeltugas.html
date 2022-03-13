@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Tabel Nilai Mahasiswa</h1>
+    <table id="style" class="display" border="1">
+        <thead>
+        <tr>
+            <th rowspan="2">NPM</th>
+            <th rowspan="2">Nama Lengkap</th>
+            <th colspan="10">Absen</th>
+            <th colspan="10">Tugas</th>
+            <th rowspan="2">UTS</th>
+            <th rowspan="2">UAS</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>20040</td>
+            <td>Adela</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>A</td>
+            <td>H</td>
+            <td>H</td>
+            <td>S</td>
+            <td>H</td>
+            <td>H</td>
+            <td>90</td>
+            <td>86</td>
+            <td>83</td>
+            <td>82</td>
+            <td>93</td>
+            <td>92</td>
+            <td>78</td>
+            <td>87</td>
+            <td>89</td>
+            <td>91</td>
+            <td>90</td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td>20041</td>
+            <td>Adi</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>S</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>91</td>
+            <td>84</td>
+            <td>82</td>
+            <td>80</td>
+            <td>91</td>
+            <td>94</td>
+            <td>79</td>
+            <td>84</td>
+            <td>85</td>
+            <td>90</td>
+            <td>92</td>
+            <td>93</td>
+        </tr>
+        <tr>
+            <td>20042</td>
+            <td>Aufa</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>91</td>
+            <td>88</td>
+            <td>85</td>
+            <td>89</td>
+            <td>92</td>
+            <td>90</td>
+            <td>85</td>
+            <td>83</td>
+            <td>89</td>
+            <td>82</td>
+            <td>95</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>20043</td>
+            <td>Wibi</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>A</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>A</td>
+            <td>90</td>
+            <td>86</td>
+            <td>83</td>
+            <td>82</td>
+            <td>93</td>
+            <td>92</td>
+            <td>78</td>
+            <td>87</td>
+            <td>89</td>
+            <td>91</td>
+            <td>90</td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td>20044</td>
+            <td>Vito</td>
+            <td>H</td>
+            <td>A</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>I</td>
+            <td>H</td>
+            <td>H</td>
+            <td>92</td>
+            <td>84</td>
+            <td>82</td>
+            <td>81</td>
+            <td>95</td>
+            <td>91</td>
+            <td>77</td>
+            <td>88</td>
+            <td>91</td>
+            <td>87</td>
+            <td>96</td>
+            <td>97</td>
+        </tr>
+        </tbody>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+    $('#style').DataTable();
+} );
+    </script>
+</body>
+</html>
